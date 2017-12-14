@@ -187,5 +187,7 @@ Example: Training new model on CDR corpus with early stopping option
     python -m train.run d3ner_cdr cdr data/cdr/cdr_train.txt data/cdr/cdr_dev.txt -es
 
   [1]: Curated chemical and disease vocabulary data were retrieved from the Comparative Toxicogenomics Database (CTD), MDI Biological Laboratory, Salisbury Cove, Maine, and NC State University, Raleigh, North Carolina. World Wide Web (URL: http://ctdbase.org/). October, 2017
+
   [2]: Mikolov,T. et al. (2013) Distributed representations of words and phrases and their compositionality. Advances in neural information processing systems, pp. 3111-3119.
+  
   [3]: Sohn,S. et al. (2008) Abbreviation definition identification based on automatic precision estimates. BMC bioinformatics, 9(1), pp. 402.
